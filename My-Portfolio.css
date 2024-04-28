@@ -37,13 +37,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
   min-height: 4.5rem;
+  width: 100vw;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
   padding-right: 2rem; 
+  /* padding-right: 2rem;  */
 }
 
 .logo {
@@ -60,6 +61,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* background-color: azure; */
 }
 
 nav a {
@@ -91,6 +93,7 @@ nav a:active {
 
 /* Home Content */
 .home{
+  /* padding-top: 4.3em; */
   box-sizing: border-box;
   height: 100vh;
   width: 100vw;
@@ -764,19 +767,20 @@ input[type=text],input[type=email],input[type=tel],.textarea{
   }
 nav{
   width: 70%;
+  /* background-color: #00eeff; */
 }
   nav a {
     font-size: 1.5rem; /* Adjust font size for tablet screens */
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .logo {
     margin: 0rem;
     padding-right: 1em;
+    /* margin-right: 2rem; */
   }
-
-  .header{
+.header{
   overflow: hidden;
 }
   nav a:not(:first-child) {
@@ -943,10 +947,11 @@ nav{
     /* left: 20%; */
     top: 5%;
   }
-/*   .kk {display: none;
+  /* .kk {display: none;
   } */
   
- 
+ .header{
+   height:3.5rem;}
   .data {
     /* background-color: rebeccapurple; */
     display: flex;
