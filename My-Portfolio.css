@@ -193,7 +193,7 @@ nav a:active {
 }
 
 
-.data button{
+.data button {
   margin-right: 13rem;
   margin-left: 13rem;
   padding: 10px 10px;
@@ -216,6 +216,7 @@ nav a:active {
   background-color: var(--text-color);
   transform: scale(1.06) translateY(-7px);
 }
+
 
 
 /* About Us Content */
@@ -946,6 +947,7 @@ nav{
     width: 80%;
     height: 40%;
     position: relative;
+    overflow: hidden;
     /* left: 20%; */
     top: 5%;
   }
@@ -981,4 +983,10 @@ nav{
     width: 100%;
     height: 60%;
   }
+
+  
+.data button {
+  padding: 0px 50px;
+}
+
 }
