@@ -37,7 +37,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 4.5rem;
+  height: 4.5rem;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -777,11 +777,13 @@ nav{
 @media screen and (max-width: 800px) {
   .logo {
     margin: 0rem;
+    padding: 0rem;
     padding-right: 1em;
     /* margin-right: 2rem; */
   }
 .header{
-  overflow: hidden;
+    min-height: 3.5rem;
+  /* overflow: hidden; */
 }
   nav a:not(:first-child) {
     display: none;
@@ -953,9 +955,7 @@ nav{
     font-weight: 600;
     color: var(--text-color);
   }
-  .header{
-    min-height: 3.5rem;
-  }
+ 
  
   .data h2 span {
     /* font-family: "Poppins" sans-serif; */
