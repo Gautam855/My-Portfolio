@@ -942,7 +942,7 @@ nav{
 
 @media (max-width: 400px) {
 .home{
-  height: 130vh;
+  height: 110vh;
 }
   .img-box {
     transform: scale(0.8);
