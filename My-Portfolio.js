@@ -18,10 +18,20 @@ function myFunction() {
 
   function toggleNav() {
     var x = document.getElementById("myTopnav");
+    var logo = document.querySelector(".logo");
+    
+    
     if (x.className === "header myTopnav") {
       x.className += " responsive";
+      logo.style.display = "none";
+      x.style.padding = "1rem";
+      x.style.height = "auto";
+
     } else {
       x.className = "header myTopnav";
+      logo.style.display = "block";
+      x.style.padding = "0rem"; // Reset padding to its original value
+      x.style.height="3.5rem";
     }
   }
   
