@@ -951,7 +951,7 @@ nav{
   } */
   
  .header{
-   height:3.5rem;}
+   min-height:3.5rem;}
 
    .data h2 {
     font-size: 1.5rem;
