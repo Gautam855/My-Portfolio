@@ -940,27 +940,23 @@ nav{
 @media (max-width: 400px) {
 
   .img-box {
-    transform: scale(1);
+    transform: scale(0.8);
     width: 80%;
     height: 40%;
     position: relative;
     /* left: 20%; */
-    top: 7%;
+    top: 5%;
   }
-  /* .kk {display: none;
-  } */
-  
- .header{
-   min-height: 2rem;
-   background-color: var(--text-color);
- }
 
-   .data h2 {
+  .data h2 {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--text-color);
   }
-
+  .header{
+    min-height: 3.5rem;
+  }
+ 
   .data h2 span {
     /* font-family: "Poppins" sans-serif; */
     font-size: 2rem;
@@ -974,6 +970,7 @@ nav{
     text-align: center;
     color: var(--text-color);
   }
+ 
   .data {
     /* background-color: rebeccapurple; */
     display: flex;
