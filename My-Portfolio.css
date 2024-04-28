@@ -952,6 +952,26 @@ nav{
   
  .header{
    height:3.5rem;}
+
+   .data h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+
+  .data h2 span {
+    /* font-family: "Poppins" sans-serif; */
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--main-color);
+  }
+  
+  .data p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--text-color);
+  }
   .data {
     /* background-color: rebeccapurple; */
     display: flex;
