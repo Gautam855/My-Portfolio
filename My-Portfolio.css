@@ -952,7 +952,7 @@ nav{
   
  .header{
    min-height: 3rem;
-   color: var(--text-color);
+   background-color: var(--text-color);
  }
 
    .data h2 {
