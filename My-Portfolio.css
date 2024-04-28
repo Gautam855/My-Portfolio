@@ -940,7 +940,7 @@ nav{
 @media (max-width: 400px) {
 
   .img-box {
-    transform: scale(0.8);
+    transform: scale(1);
     width: 80%;
     height: 40%;
     position: relative;
