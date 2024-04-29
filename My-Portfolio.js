@@ -115,5 +115,6 @@ function myFunction() {
 });
 
 ScrollReveal().reveal('.img-box, .about p, .inp1',{origin:'right' });
-ScrollReveal().reveal('.data ,h2, .projects h2, .textarea',{origin:'top' });
+ScrollReveal().reveal('.data ,h2, .projects h2',{origin:'top' });
 ScrollReveal().reveal('.image, .inp2',{origin:'left' });
+ScrollReveal().reveal('.textarea',{origin:'bottom' });
