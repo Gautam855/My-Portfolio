@@ -61,9 +61,9 @@ function myFunction() {
 
       function sendEmail() {
         const bodymessage = 
-        `Name: ${nameInput.value} <br> Email: ${emailInput.value}
-        <br>Mobile no.: ${mobile.value} >br>
-        Message: ${messageTextarea.value}`;
+        `<b>Name:</b> ${nameInput.value} <br> <b>Email:</b> ${emailInput.value}
+        <br><b>Mobile no.:</b> ${mobile.value} <br>
+        <br><br><b>Message:</b> ${messageTextarea.value}`;
         Email.send({
           Host: "smtp.elasticemail.com",
           Username: "gv8860022@gmail.com",
