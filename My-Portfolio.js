@@ -103,3 +103,17 @@ function myFunction() {
            messageTextarea.value=""
       });
 
+
+
+
+
+      ScrollReveal({ 
+        reset: true,
+      distance: '80px',
+    duration:2000,
+  delay:200 
+});
+
+ScrollReveal().reveal('.img-box, .about p',{origin:'right' });
+ScrollReveal().reveal('.data ,h2, .projects h2',{origin:'top' });
+ScrollReveal().reveal('.image',{origin:'left' });
