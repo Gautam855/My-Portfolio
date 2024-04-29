@@ -114,6 +114,6 @@ function myFunction() {
   delay:200 
 });
 
-ScrollReveal().reveal('.img-box, .about p',{origin:'right' });
-ScrollReveal().reveal('.data ,h2, .projects h2',{origin:'top' });
-ScrollReveal().reveal('.image',{origin:'left' });
+ScrollReveal().reveal('.img-box, .about p, .inp1',{origin:'right' });
+ScrollReveal().reveal('.data ,h2, .projects h2, .textarea',{origin:'top' });
+ScrollReveal().reveal('.image, .inp2',{origin:'left' });
