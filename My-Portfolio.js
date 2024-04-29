@@ -114,7 +114,7 @@ function myFunction() {
   delay:200 
 });
 
-ScrollReveal().reveal('.img-box, .about p, .inp1',{origin:'right' });
+ScrollReveal().reveal('.img-box, .about p, .inp1, .achievement-box',{origin:'right' });
 ScrollReveal().reveal('.data ,h2, .projects h2',{origin:'top' });
-ScrollReveal().reveal('.image, .inp2',{origin:'left' });
+ScrollReveal().reveal('.image, .inp2, .project-box',{origin:'left' });
 ScrollReveal().reveal('.textarea',{origin:'bottom' });
