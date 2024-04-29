@@ -114,7 +114,7 @@ const sr = ScrollReveal({
 });
 
 // Define your reveal animations
-sr.reveal('.img-box, .about p, .inp1, .achievement-box',{origin:'right' });
+sr.reveal('.img-box, .pp, .inp1, .achievement-box',{origin:'right' });
 sr.reveal('.data, h2, .projects h2',{origin:'top' });
 sr.reveal('.image, .inp2, .project-box',{origin:'left' });
 sr.reveal('.textarea',{origin:'bottom' });
