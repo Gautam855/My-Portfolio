@@ -118,3 +118,12 @@ sr.reveal('.img-box, .pp, .inp1, .achievement-box',{origin:'right' });
 sr.reveal('.data, h2, .projects h2',{origin:'top' });
 sr.reveal('.image, .inp2, .project-box',{origin:'left' });
 sr.reveal('.textarea',{origin:'bottom' });
+
+
+function download() {
+        // You can use JavaScript to trigger the download
+        var link = document.createElement('a');
+        link.href = 'GAUTAM_RESUME.pdf';
+        link.download = 'GAUTAM_RESUME.pdf';
+        link.click();
+    }
