@@ -499,7 +499,10 @@ nav a:active {
   justify-content: center;
 }
 
-
+textarea{
+  width: 39rem;
+  height: 20rem;
+}
 .input-box input{
   width: 19rem;
   height: 2rem;
@@ -521,7 +524,6 @@ nav a:active {
   transition: background-color 0.3s ease;
   filter: drop-shadow(5px 5px 10px #00eeff);
 }
-
 
 .contact-box button:hover {
   filter: drop-shadow(5px 5px 10px black);
@@ -571,6 +573,48 @@ input[type=text],input[type=email],input[type=tel],.textarea{
     bottom: 10px;
     right: 50px;
  }
+
+
+
+
+
+
+/* Media Queries for Responsiveness */
+@media only screen and (min-width: 768px) {
+  .contact h2 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .textarea {
+    height: 20rem;
+  }
+
+  textarea {
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  textarea {
+   width: 82%;
+  }
+  .contact-box button {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+
+
+
+
 
 
 
