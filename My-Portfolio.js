@@ -44,4 +44,62 @@ function myFunction() {
     backDelay:1000,
     loop: true,
   });
-       
+
+
+
+
+
+
+  
+
+  const f = document.querySelector("form");
+  const  nameInput = document.querySelector("#name");
+  const  emailInput = document.querySelector("#email");
+  const  messageTextarea=document.querySelector('#plholder');
+  const  mobile=document.querySelector('#mnum');
+  const  sject=document.querySelector('#sub');
+
+      function sendEmail() {
+        const bodymessage = 
+        `Name: ${nameInput.value} <br> Email: ${emailInput.value}
+        <br>Mobile no.: ${mobile.value} >br>
+        Message: ${messageTextarea.value}`;
+        Email.send({
+          Host: "smtp.elasticemail.com",
+          Username: "gv8860022@gmail.com",
+          Password: "F839FE25B50A71ED3E02931BE60F0D100740",
+          To: "gv8860022@gmail.com",
+          From: "gv8860022@gmail.com",
+          Subject: sject.value,
+          Body: bodymessage,
+        }).then( 
+          message => {
+          if(message == "OK"){
+            Swal.fire({
+              title: "Good job!",
+              text: "Message Sent Successfully",
+            });
+
+
+           }else{
+             Swal.fire({
+               title: 'Oops...',
+               text: 'Something went wrong!'
+             })
+           }
+         },
+       );
+     };
+         
+
+      f.addEventListener("submit", (e) => {
+        e.preventDefault();
+        sendEmail();
+
+        nameInput.value="";
+        emailInput.value="";
+          mobile.value="";
+            sject.value="";
+           messageTextarea.value=""
+      });
+
