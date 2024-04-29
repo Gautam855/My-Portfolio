@@ -108,13 +108,12 @@ function myFunction() {
 
 
       ScrollReveal({ 
-        reset: true,
       distance: '80px',
     duration:2000,
   delay:200 
 });
 
-ScrollReveal().reveal('.img-box, .about p, .inp1, .achievement-box',{origin:'right' });
-ScrollReveal().reveal('.data ,h2, .projects h2',{origin:'top' });
-ScrollReveal().reveal('.image, .inp2, .project-box',{origin:'left' });
-ScrollReveal().reveal('.textarea',{origin:'bottom' });
+sr.reveal('.img-box, .about p, .inp1, .achievement-box',{origin:'right' });
+sr.reveal('.data, h2, .projects h2',{origin:'top' });
+sr.reveal('.image, .inp2, .project-box',{origin:'left' });
+sr.reveal('.textarea',{origin:'bottom' });
